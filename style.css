@@ -18,8 +18,7 @@ body {
     font-family: 'poppins', sans-serif;
     color: #161616;
     margin: auto;
-    justify-content: center;
-    gap: 4rem;
+    justify-content: space-evenly;
 }
 
 img{
@@ -28,6 +27,8 @@ img{
 }
 
 .container {
+    background-color: black;
+    color: white;
     max-width: 600px;
     height: 70vh;
     display: flex;
@@ -36,19 +37,13 @@ img{
     margin-top: 7rem;
     padding: 2.5rem 1rem ;
     gap: 1rem;
-    border: 2px solid  ;
+    border: 2px solid;
     border-radius: 24px;
 }
 
-.group-1{
+.container:hover{
     background-color: white;
-}
-
-
-.group-2{
-    color: #fff;
-    background-color: black;
-    border: 2px solid white
+    color: black;
 }
 
 .container p{
@@ -59,19 +54,16 @@ img{
 button {
     padding: .72rem 2rem;
     border-radius: 15px;
-}
-
-button:hover{
-    background: transparent
-}
-
-.group-1 button{
-    background-color: black;
+    background-color: rgb(49, 158, 49);
+    border: 2px solid rgb(49, 158, 49);
     color: white;
 }
 
-.group-2 button{
-    background-color: black;
-    background-color: rgb(66, 190, 66);
-    color: white;
+.container button:hover{
+    background: transparent;
+    color: black;
 }
+
+@media (max-width: 1350) {
+ /* Finish later */
+}   
